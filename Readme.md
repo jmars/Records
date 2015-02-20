@@ -6,7 +6,7 @@ A 'dynamic' record system with strong correctness guarantees.
 ```idris
 test : Record {lbl=String} ?testTy
 test = [ "foo" := 1
-       , "bar := "a thing"
+       , "bar" := "a thing"
        , "bleh" := 1.2 ]
 testTy = proof search
 ```
