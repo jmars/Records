@@ -39,5 +39,5 @@ test5 = test2 ++ test
 test5Ty = proof search
 ```
 
-Note: Proof search is not required if the record is not a at the top scope level,
+Note: Proof search is not required if the record is not at the top scope level,
 type inference will find the correct type inside functions or closures.
