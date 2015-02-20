@@ -2,6 +2,8 @@
 
 A 'dynamic' record system with strong correctness guarantees.
 
+[Relevant Paper](http://research.microsoft.com/pubs/65409/scopedlabels.pdf)
+
 ## Create
 ```idris
 test : Record {lbl=String} ?testTy
